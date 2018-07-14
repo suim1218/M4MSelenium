@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0fd04cfa-c7a2-4916-a1db-38778e486076" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/case/base_case.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/M4MUI自动化.iml" afterPath="$PROJECT_DIR$/.idea/M4MUI自动化.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/add_blacklist_case.py" afterPath="$PROJECT_DIR$/case/add_blacklist_case.py" />
+      <change beforePath="$PROJECT_DIR$/button_management_case.py" afterPath="$PROJECT_DIR$/case/button_management_case.py" />
+      <change beforePath="$PROJECT_DIR$/login_case.py" afterPath="$PROJECT_DIR$/case/login_case.py" />
+      <change beforePath="$PROJECT_DIR$/modify_password_case.py" afterPath="$PROJECT_DIR$/case/modify_password_case.py" />
+      <change beforePath="$PROJECT_DIR$/organization_management_case.py" afterPath="$PROJECT_DIR$/case/organization_management_case.py" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" afterPath="$PROJECT_DIR$/pages/base_page.py" />
+      <change beforePath="$PROJECT_DIR$/pages/button_management_page.py" afterPath="$PROJECT_DIR$/pages/button_management_page.py" />
+      <change beforePath="$PROJECT_DIR$/pages/dashboard_page.py" afterPath="$PROJECT_DIR$/pages/dashboard_page.py" />
+      <change beforePath="$PROJECT_DIR$/pages/internet_control_page.py" afterPath="$PROJECT_DIR$/pages/internet_control_page.py" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" afterPath="$PROJECT_DIR$/pages/login_page.py" />
+      <change beforePath="$PROJECT_DIR$/pages/modify_password_page.py" afterPath="$PROJECT_DIR$/pages/modify_password_page.py" />
+      <change beforePath="$PROJECT_DIR$/pages/organization_management_page.py" afterPath="$PROJECT_DIR$/pages/organization_management_page.py" />
+      <change beforePath="$PROJECT_DIR$/pages/people_management_page.py" afterPath="$PROJECT_DIR$/pages/people_management_page.py" />
+      <change beforePath="$PROJECT_DIR$/pages/role_management_page.py" afterPath="$PROJECT_DIR$/pages/role_management_page.py" />
+      <change beforePath="$PROJECT_DIR$/pages/send_notice_page.py" afterPath="$PROJECT_DIR$/pages/send_notice_page.py" />
+      <change beforePath="$PROJECT_DIR$/pages/send_wensi_page.py" afterPath="$PROJECT_DIR$/pages/send_wensi_page.py" />
+      <change beforePath="$PROJECT_DIR$/pages/switch_management_page.py" afterPath="$PROJECT_DIR$/pages/switch_management_page.py" />
+      <change beforePath="$PROJECT_DIR$/people_management_case.py" afterPath="$PROJECT_DIR$/case/people_management_case.py" />
+      <change beforePath="$PROJECT_DIR$/report/2017_12_29_12_54_57_report.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/下发黑名单策略成功.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/不选择根组织点击修改组织按钮.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/不选择根组织点击删除组织按钮.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/不选择根组织点击添加组织按钮.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/二次编辑闻思.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/保存闻思不发布.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/修改密码两次密码输入不一致.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/修改密码原密码为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/修改密码成功.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/修改密码新密码为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/修改密码确认新密码输入框为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/公告内容为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/公告过长.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/删除开关.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/删除第一页黑名单.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/删除组织.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/删除闻思.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/发送公告成功.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/发送闻思成功.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/导入黑名单名称为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/导入黑名单成功.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/开关代号为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/开关代号过长.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/开关代号重复.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/开关名称为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/开关名称过长.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/开关编码为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/开关编码过长.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/开关编码重复.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/成功添加组织.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/按钮名称为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/按钮名称过长.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/按钮编码为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/按钮编码过长.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/按钮编码重复.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/收件人为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/新密码为纯字母.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/新密码为纯数字.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/新密码过短.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/新密码过长.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/根据按钮名称查询.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/根据按钮编码查询.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/根据正确的开关代号查询.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/根据正确的开关名称查询.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/根据错误的开关代号查询.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/根据错误的开关名称和代号查询.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/根据错误的开关名称查询.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/根据错误的按钮名称和编码查询.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/根据错误的按钮名称查询.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/根据错误的按钮编码查询.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/添加按钮成功.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/添加管控开关.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/添加角色成功.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/添加重复的组织名称.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/添加黑名单成功.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/登录成功.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/组织名称为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/组织名称过长.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/继续添加黑名单成功.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/编辑开关.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/角色名称为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/角色名称过长.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/账号或密码错误.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/闻思内容为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/闻思标题为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/闻思标题过长.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/黑名单名称为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/黑名单名称和网址都为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/黑名单名称过长.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/黑名单网址为空.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/report/image/黑名单网址过长.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/role_management_case.py" afterPath="$PROJECT_DIR$/case/role_management_case.py" />
+      <change beforePath="$PROJECT_DIR$/run_test.py" afterPath="$PROJECT_DIR$/case/run_test.py" />
+      <change beforePath="$PROJECT_DIR$/send_notice_case.py" afterPath="$PROJECT_DIR$/case/send_notice_case.py" />
+      <change beforePath="$PROJECT_DIR$/send_wensi_case.py" afterPath="$PROJECT_DIR$/case/send_wensi_case.py" />
+      <change beforePath="$PROJECT_DIR$/switch_management_case.py" afterPath="$PROJECT_DIR$/case/switch_management_case.py" />
+      <change beforePath="$PROJECT_DIR$/web_control.xlsx" afterPath="$PROJECT_DIR$/case/web_control.xlsx" />
+      <change beforePath="$PROJECT_DIR$/web_control2.xlsx" afterPath="$PROJECT_DIR$/case/web_control2.xlsx" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="run_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/case/run_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding>
+                <element signature="e#15#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/base_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-378">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="button_management_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/button_management_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-819">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_case.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/case/base_case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/base_case.py" />
+        <option value="$PROJECT_DIR$/add_blacklist_case.py" />
+        <option value="$PROJECT_DIR$/button_management_case.py" />
+        <option value="$PROJECT_DIR$/modify_password_case.py" />
+        <option value="$PROJECT_DIR$/organization_management_case.py" />
+        <option value="$PROJECT_DIR$/people_management_case.py" />
+        <option value="$PROJECT_DIR$/role_management_case.py" />
+        <option value="$PROJECT_DIR$/send_notice_case.py" />
+        <option value="$PROJECT_DIR$/send_wensi_case.py" />
+        <option value="$PROJECT_DIR$/switch_management_case.py" />
+        <option value="$PROJECT_DIR$/case/add_blacklist_case.py" />
+        <option value="$PROJECT_DIR$/case/button_management_case.py" />
+        <option value="$PROJECT_DIR$/case/modify_password_case.py" />
+        <option value="$PROJECT_DIR$/case/organization_management_case.py" />
+        <option value="$PROJECT_DIR$/case/people_management_case.py" />
+        <option value="$PROJECT_DIR$/case/role_management_case.py" />
+        <option value="$PROJECT_DIR$/case/send_notice_case.py" />
+        <option value="$PROJECT_DIR$/case/send_wensi_case.py" />
+        <option value="$PROJECT_DIR$/case/switch_management_case.py" />
+        <option value="$PROJECT_DIR$/case/run_test.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="M4MUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="M4MUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="M4MUI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="M4MUI" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../github项目/pyse-master" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\新建文件夹\M4MUI" />
+      <recent name="C:\Users\Administrator\Desktop\新建文件夹\M4MUI\case" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_test (1)">
+    <configuration name="add_blacklist_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="M4MUI自动化" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/add_blacklist_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="M4MUI自动化" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/run_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests for switch_management_case.SwitchCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="M4MUI自动化" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;switch_management_case.SwitchCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in modify_password_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="M4MUI自动化" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/modify_password_case.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in switch_management_case.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="M4MUI自动化" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/switch_management_case.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.add_blacklist_case" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for switch_management_case.SwitchCase" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in switch_management_case.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in modify_password_case.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.run_test (1)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.run_test (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in modify_password_case.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in switch_management_case.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for switch_management_case.SwitchCase" />
+        <item index="4" class="java.lang.String" itemvalue="Python.add_blacklist_case" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fd04cfa-c7a2-4916-a1db-38778e486076" name="Default" comment="" />
+      <created>1510716378022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510716378022</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_add_blacklist_case_AddBlacklistCase_test_add_blacklist_success - 2018.07.13 at 15h 48m 39s.xml">
+      <configuration name="Unittests for add_blacklist_case.AddBlacklistCase.test_add_blacklist_success" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_button_management_case_ButtonCase_test_add_button_success - 2018.07.13 at 15h 54m 36s.xml">
+      <configuration name="Unittests for button_management_case.ButtonCase.test_add_button_success" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_switch_management_case_SwitchCase - 2018.07.13 at 16h 55m 28s.xml">
+      <configuration name="Unittests for switch_management_case.SwitchCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_add_blacklist_case_py - 2018.07.13 at 15h 50m 11s.xml">
+      <configuration name="Unittests in add_blacklist_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_add_blacklist_case_py - 2018.07.13 at 15h 57m 51s.xml">
+      <configuration name="Unittests in add_blacklist_case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_modify_password_case_py - 2018.07.13 at 17h 07m 16s.xml">
+      <configuration name="Unittests in modify_password_case.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16302083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/case/people_management_case.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/case/people_management_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/role_management_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/send_notice_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#16#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/send_wensi_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#16#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/switch_management_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4620">
+          <caret line="224" column="11" lean-forward="true" selection-start-line="224" selection-start-column="11" selection-end-line="224" selection-end-column="11" />
+          <folding>
+            <element signature="e#16#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_test.py" />
+    <entry file="file://$PROJECT_DIR$/pages/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/button_management_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/dashboard_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_blacklist_case.py" />
+    <entry file="file://$PROJECT_DIR$/send_notice_case.py" />
+    <entry file="file://$PROJECT_DIR$/send_wensi_case.py" />
+    <entry file="file://$PROJECT_DIR$/switch_management_case.py" />
+    <entry file="file://$PROJECT_DIR$/base_case.py" />
+    <entry file="file://$PROJECT_DIR$/pages/send_wensi_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_case.py" />
+    <entry file="file://$PROJECT_DIR$/run_test.py" />
+    <entry file="file://$PROJECT_DIR$/pages/send_wensi_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_case.py" />
+    <entry file="file://$PROJECT_DIR$/run_test.py" />
+    <entry file="file://$PROJECT_DIR$/pages/send_wensi_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/button_management_case.py" />
+    <entry file="file://$PROJECT_DIR$/login_case.py" />
+    <entry file="file://$PROJECT_DIR$/modify_password_case.py" />
+    <entry file="file://$PROJECT_DIR$/organization_management_case.py" />
+    <entry file="file://$PROJECT_DIR$/people_management_case.py" />
+    <entry file="file://$PROJECT_DIR$/role_management_case.py" />
+    <entry file="file://$PROJECT_DIR$/send_notice_case.py" />
+    <entry file="file://$PROJECT_DIR$/send_wensi_case.py" />
+    <entry file="file://$PROJECT_DIR$/switch_management_case.py" />
+    <entry file="file://$PROJECT_DIR$/run_test.py" />
+    <entry file="file://$PROJECT_DIR$/pages/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/dashboard_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_case.py" />
+    <entry file="file://$PROJECT_DIR$/add_blacklist_case.py" />
+    <entry file="file://$PROJECT_DIR$/case/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/button_management_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/organization_management_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/people_management_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/role_management_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/send_notice_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#16#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/send_wensi_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#16#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/add_blacklist_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/switch_management_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4704">
+          <caret line="224" column="11" lean-forward="false" selection-start-line="224" selection-start-column="11" selection-end-line="224" selection-end-column="11" />
+          <folding>
+            <element signature="e#16#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/modify_password_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/run_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/button_management_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/base_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
