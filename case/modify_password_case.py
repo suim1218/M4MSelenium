@@ -22,7 +22,7 @@ class ModifyPasswordCase(BaseCase):
     def test_new_password_null(self):
         """新密码为空"""
 
-        old_password = 'Admin123'
+        old_password = ''
         new_password = ''
         again_password = 'admin123456'
         modify_password_page = ModifyPasswordPage(self.dr)
@@ -34,7 +34,7 @@ class ModifyPasswordCase(BaseCase):
     def test_again_password_null(self):
         """确认新密码输入框为空"""
 
-        old_password = 'Admin123'
+        old_password = ''
         new_password = 'admin123456'
         again_password = ''
         modify_password_page = ModifyPasswordPage(self.dr)
@@ -46,7 +46,7 @@ class ModifyPasswordCase(BaseCase):
     def test_different_password(self):
         """两次密码输入不一致"""
 
-        old_password = 'Admin123'
+        old_password = ''
         new_password = 'admin123456'
         again_password = 'admin12345'
         modify_password_page = ModifyPasswordPage(self.dr)
@@ -58,7 +58,7 @@ class ModifyPasswordCase(BaseCase):
     def test_new_password_long(self):
         """新密码过长"""
 
-        old_password = 'Admin123'
+        old_password = ''
         new_password = 'admin123456123456123456123456123456123456'
         again_password = 'admin123456123456123456123456123456123456'
         modify_password_page = ModifyPasswordPage(self.dr)
@@ -70,8 +70,8 @@ class ModifyPasswordCase(BaseCase):
     def test_new_password_short(self):
         """新密码过短"""
 
-        old_password = 'Admin123'
-        new_password = 'admin'
+        old_password = ''
+        new_password = ''
         again_password = 'admin'
         modify_password_page = ModifyPasswordPage(self.dr)
         modify_password_page.modify_password(old_password, new_password, again_password)
@@ -82,7 +82,7 @@ class ModifyPasswordCase(BaseCase):
     def test_new_password_number_type(self):
         """新密码只为数字类型"""
 
-        old_password = 'Admin123'
+        old_password = ''
         new_password = '111111'
         again_password = '111111'
         modify_password_page = ModifyPasswordPage(self.dr)
@@ -94,7 +94,7 @@ class ModifyPasswordCase(BaseCase):
     def test_new_password_letter_type(self):
         """新密码只为字母类型"""
 
-        old_password = 'Admin123'
+        old_password = ''
         new_password = 'aaaaaa'
         again_password = 'aaaaaa'
         modify_password_page = ModifyPasswordPage(self.dr)
@@ -106,7 +106,7 @@ class ModifyPasswordCase(BaseCase):
     def test_new_password_success(self):
         """修改密码成功"""
 
-        old_password = new_password = again_password = 'Admin123'
+        old_password = new_password = again_password = ''
         modify_password_page = ModifyPasswordPage(self.dr)
         modify_password_page.modify_password(old_password, new_password, again_password)
         self.assertIn('操作成功', modify_password_page.modify_password_success_msg)
