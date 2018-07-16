@@ -31,8 +31,8 @@ class LoginCase(unittest.TestCase):
     #     cls.dr.quit()
 
     def test_login_success(self):
-        username = 'admin'
-        password = 'Admin123'
+        username = ''
+        password = ''
 
         login_page = LoginPage(self.dr)
         login_page.url = 'http://localhost:9090/m4m/admin/index.jsp'
@@ -44,8 +44,8 @@ class LoginCase(unittest.TestCase):
 
     def test_login_fail(self):
         """用户名或者密码错误"""
-        username = 'admin2'
-        password = 'Admin123'
+        username = ''
+        password = ''
 
         login_page = LoginPage(self.dr)
         login_page.url = 'http://localhost:9090/m4m/admin/index.jsp'
