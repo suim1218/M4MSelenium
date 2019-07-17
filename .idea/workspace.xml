@@ -2,82 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fd04cfa-c7a2-4916-a1db-38778e486076" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/image/下发黑名单策略成功.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/不选择根组织点击修改组织按钮.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/不选择根组织点击删除组织按钮.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/不选择根组织点击添加组织按钮.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/二次编辑闻思.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/保存闻思不发布.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/修改密码两次密码输入不一致.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/修改密码原密码为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/修改密码新密码为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/修改密码确认新密码输入框为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/公告内容为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/公告过长.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/删除开关.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/删除第一页黑名单.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/删除组织.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/删除闻思.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/发送公告成功.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/发送闻思成功.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/开关代号为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/开关代号过长.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/开关代号重复.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/开关名称为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/开关名称过长.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/开关编码为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/开关编码过长.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/成功添加组织.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/按钮名称为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/按钮名称过长.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/按钮编码为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/按钮编码过长.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/按钮编码重复.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/收件人为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/新密码为纯字母.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/新密码为纯数字.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/新密码过长.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/根据按钮名称查询.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/根据按钮编码查询.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/根据正确的开关代号查询.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/根据正确的开关名称查询.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/根据错误的开关代号查询.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/根据错误的开关名称和代号查询.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/根据错误的开关名称查询.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/根据错误的按钮名称和编码查询.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/根据错误的按钮名称查询.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/根据错误的按钮编码查询.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/添加角色成功.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/添加设备开关成功.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/添加重复的组织名称.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/组织名称为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/组织名称过长.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/继续添加黑名单成功.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/角色名称为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/角色名称过长.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/闻思内容为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/闻思标题为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/闻思标题过长.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/黑名单名称为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/黑名单名称和网址都为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/黑名单名称过长.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/黑名单网址为空.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/黑名单网址过长.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/new_report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/M4MUI自动化.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/M4MUI自动化.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/修改密码成功.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/导入黑名单名称为空.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/导入黑名单成功.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/开关编码重复.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/新密码过短.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/添加黑名单成功.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/登录成功.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/账号或密码错误.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/screenshot.py" beforeDir="false" afterPath="$PROJECT_DIR$/public/screenshot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/image/继续添加黑名单成功.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/下发黑名单策略成功.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/不选择根组织点击修改组织按钮.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/不选择根组织点击删除组织按钮.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/不选择根组织点击添加组织按钮.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/二次编辑闻思.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/保存闻思不发布.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/修改密码两次密码输入不一致.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/修改密码原密码为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/修改密码新密码为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/修改密码确认新密码输入框为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/公告内容为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/公告过长.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/删除开关.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/删除第一页黑名单.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/删除组织.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/删除闻思.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/发送公告成功.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/发送闻思成功.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/开关代号为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/开关代号过长.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/开关代号重复.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/开关名称为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/开关名称过长.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/开关编码为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/开关编码过长.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/成功添加组织.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/按钮名称为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/按钮名称过长.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/按钮编码为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/按钮编码过长.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/按钮编码重复.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/收件人为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/新密码为纯字母.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/新密码为纯数字.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/新密码过长.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/根据按钮名称查询.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/根据按钮编码查询.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/根据正确的开关代号查询.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/根据正确的开关名称查询.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/根据错误的开关代号查询.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/根据错误的开关名称和代号查询.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/根据错误的开关名称查询.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/根据错误的按钮名称和编码查询.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/根据错误的按钮名称查询.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/根据错误的按钮编码查询.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/添加角色成功.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/添加设备开关成功.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/添加重复的组织名称.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/组织名称为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/组织名称过长.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/继续添加黑名单成功.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/角色名称过长.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/闻思内容为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/闻思标题为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/闻思标题过长.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/黑名单名称为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/黑名单名称和网址都为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/黑名单名称过长.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/黑名单网址为空.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/黑名单网址过长.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+            <state relative-caret-position="567">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -128,11 +112,6 @@
               <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image/继续添加黑名单成功.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -456,8 +435,8 @@
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32979852" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37960956" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37960956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -532,7 +510,7 @@
         <state relative-caret-position="21">
           <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
           <folding>
-            <element signature="e#16#31#0" expanded="false" />
+            <element signature="e#16#31#0" />
           </folding>
         </state>
       </provider>
@@ -542,7 +520,7 @@
         <state relative-caret-position="4704">
           <caret line="224" column="11" selection-start-line="224" selection-start-column="11" selection-end-line="224" selection-end-column="11" />
           <folding>
-            <element signature="e#16#31#0" expanded="false" />
+            <element signature="e#16#31#0" />
           </folding>
         </state>
       </provider>
@@ -669,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        <state relative-caret-position="567">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

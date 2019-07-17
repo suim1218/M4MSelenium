@@ -6,11 +6,11 @@ import yagmail
 
 
 def send_mail(file):
-    yag = yagmail.SMTP(user="18662764778@163.com", password="sui1218", host='smtp.163.com')
+    yag = yagmail.SMTP(user="xxx@163.com", password="xxx", host='smtp.163.com')
     # 邮箱正文
     title = "M4M后台管理测试报告"
     contents = ["M4M后台管理测试报告,请注意查收，详情请看附件"]
-    yag.send('18662764778@163.com', title, contents, [file])
+    yag.send('xxx@163.com', title, contents, [file])
 
 
 if __name__ == '__main__':
