@@ -6,6 +6,7 @@
 * Selenium2(2.48.0)
 * Firefox 36
 * unittest
+* HTMLTestRunner.py
 
 ### 主要内容
 * PO模式
